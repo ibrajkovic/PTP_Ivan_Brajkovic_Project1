@@ -4065,6 +4065,86 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Montažne rupe"
+		(exclude_from_sim no)
+		(at 179.324 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09a2fd8c-d53a-4100-baf1-9f71c4a5c788")
+	)
+	(text "Tipkalo i ulaz radnog takta"
+		(exclude_from_sim no)
+		(at 28.956 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0df907e9-48bf-458b-9477-ac15809718ea")
+	)
+	(text "Napajanje bistabila"
+		(exclude_from_sim no)
+		(at 129.032 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ff9c71d-e11c-4567-87f3-a848dc278982")
+	)
+	(text "LED diode"
+		(exclude_from_sim no)
+		(at 192.532 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5620b5bc-94d3-42f5-94f1-deba9ca69068")
+	)
+	(text "Reset brojača"
+		(exclude_from_sim no)
+		(at 117.094 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "66b972dc-f5b1-47f7-ad39-1d794f359b6f")
+	)
+	(text "JK bistabil"
+		(exclude_from_sim no)
+		(at 90.932 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e23901ed-5450-43b4-b514-463245983252")
+	)
+	(text "Napajanje"
+		(exclude_from_sim no)
+		(at 23.114 17.018 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f41ffa83-3fc7-4354-9871-2e195da6cb8a")
+	)
+	(text "555 timer"
+		(exclude_from_sim no)
+		(at 20.574 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fdde2da9-33ce-42b2-a696-9a4da879e79d")
+	)
 	(junction
 		(at 33.02 33.02)
 		(diameter 0)
@@ -4961,6 +5041,16 @@
 		)
 		(uuid "4b0c5271-8985-4a78-8217-313935a681f1")
 	)
+	(polyline
+		(pts
+			(xy 106.68 198.12) (xy 109.22 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1d5d73-a709-408c-8860-522afda41aef")
+	)
 	(wire
 		(pts
 			(xy 254 33.02) (xy 254 39.37)
@@ -4970,6 +5060,16 @@
 			(type default)
 		)
 		(uuid "4be3db8b-9fb5-4418-a293-b8bcb0279758")
+	)
+	(polyline
+		(pts
+			(xy 115.57 12.7) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "4c3a0db4-4ea7-499c-8a2f-e5d1c39c7511")
 	)
 	(wire
 		(pts
@@ -5200,6 +5300,16 @@
 			(type default)
 		)
 		(uuid "7449a59d-e8aa-4ad1-85cf-03c79a2023d6")
+	)
+	(polyline
+		(pts
+			(xy 167.64 127) (xy 167.64 198.12)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "75737635-c47c-45b4-ba5f-89573f0dbaaa")
 	)
 	(wire
 		(pts
@@ -5591,6 +5701,16 @@
 		)
 		(uuid "9ecf7f25-3fb9-487e-b0ee-666299322705")
 	)
+	(polyline
+		(pts
+			(xy 11.43 127) (xy 285.75 127)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "9f91376f-bfbb-4711-95ff-06e3b4230d5e")
+	)
 	(wire
 		(pts
 			(xy 68.58 138.43) (xy 68.58 146.05)
@@ -5610,6 +5730,16 @@
 			(type default)
 		)
 		(uuid "a0f2e575-0281-4cb2-8e3d-37b56844994b")
+	)
+	(polyline
+		(pts
+			(xy 194.31 67.31) (xy 194.31 127)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "a214297c-cfb0-4472-a71b-f4de4d10019d")
 	)
 	(wire
 		(pts
@@ -5670,6 +5800,16 @@
 			(type default)
 		)
 		(uuid "a78efa68-e26f-4cd1-bc43-d0eaef74f30b")
+	)
+	(polyline
+		(pts
+			(xy 80.01 67.31) (xy 80.01 127)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "a812b4e8-c6d6-407a-9eab-fac9211c9f68")
 	)
 	(wire
 		(pts
@@ -5850,6 +5990,26 @@
 			(type default)
 		)
 		(uuid "bb56094b-e3b0-48c3-8e5f-8bbcf675ca94")
+	)
+	(polyline
+		(pts
+			(xy 12.7 67.31) (xy 285.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "bc498649-62c8-4ba9-a8fc-bf7a6924f4fd")
+	)
+	(polyline
+		(pts
+			(xy 181.61 11.43) (xy 181.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "bd79e402-dc28-4fed-ae80-710283229110")
 	)
 	(wire
 		(pts
@@ -6040,6 +6200,16 @@
 			(type default)
 		)
 		(uuid "d629b5db-51ab-4fc7-bb42-ffe1861ae204")
+	)
+	(polyline
+		(pts
+			(xy 106.68 127) (xy 106.68 198.12)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(uuid "d6afccd7-c0a2-45e5-812c-8e77692b97c3")
 	)
 	(wire
 		(pts
@@ -7317,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 227.33 52.07 0)
 			(effects
 				(font
@@ -8804,7 +8974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-6:SOT-23-6"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 147.32 148.59 0)
 			(effects
 				(font
@@ -9127,7 +9297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 227.33 39.37 0)
 			(effects
 				(font
@@ -11927,7 +12097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 227.33 45.72 0)
 			(effects
 				(font
@@ -12287,11 +12457,12 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 196.85 93.98 0)
+			(at 199.39 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
